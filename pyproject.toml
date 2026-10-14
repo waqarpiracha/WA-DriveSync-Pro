@@ -1,0 +1,22 @@
+[project]
+name = "wadrivesyncpro"
+version = "1.0.0"
+description = "WA-DriveSync-Pro: Commercial WhatsApp to Google Drive and Sheets AI Sync Engine"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "flet==0.25.2",
+]
+
+[tool.flet]
+org = "com.waqar.wadrivesync"
+product = "WA-DriveSync-Pro"
+company = "Waqar Analytics & Automation"
+copyright = "Copyright (C) 2026 Waqar Aslam Piracha"
+
+[tool.flet.android]
+permissions = [
+    "INTERNET",
+    "READ_EXTERNAL_STORAGE",
+    "WRITE_EXTERNAL_STORAGE"
+]
